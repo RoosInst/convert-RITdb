@@ -1,0 +1,219 @@
+,,,,,Name,GEJRNEYA-RI8586A_Src_(Lin)_(vsFreq)(vsPset)_Validate_2021-10-05T14-15-39
+Result Number,Result Name,Units,U Limit,L Limit
+1,Check Connection,db,,,,20.014
+2,Check Connection (+20),dbm,,,,39.996
+3,Check Connection (-20),dbm,,,,-19.982
+4,Pout Error (Abs)(Avg)@Frq3:20,db,,,,-0.0294125
+5,Pout Error (Abs)(Avg)@Frq3:30,db,,,,-0.019125
+6,Pout Error (Abs)(Avg)@Frq3:40,db,,,,-0.0226875
+7,Pout Error (Abs)(Avg)@Frq3:50,db,,,,-0.0239125
+8,Pout Error (Abs)(Avg)@Frq3:60,db,,,,-0.029125
+9,Pout Error (Abs)(Avg)@Frq3:70,db,,,,-0.030225
+10,Pout Error (Abs)(Avg)@Frq3:80,db,,,,-0.0320375
+11,Pout Error (Abs)(Avg)@Frq3:90,db,,,,-0.0291
+12,Pout Error (Abs)(Avg)@Frq3:99.999,db,,,,-0.028025
+13,Pout Error (Abs)(Avg)@Frq3:100,db,,,,-0.0382375
+14,Pout Error (Abs)(Avg)@Frq3:440.5,db,,,,-0.0307375
+15,Pout Error (Abs)(Avg)@Frq3:440.501,db,,,,-0.0298375
+16,Pout Error (Abs)(Avg)@Frq3:580.5,db,,,,-0.025125
+17,Pout Error (Abs)(Avg)@Frq3:580.501,db,,,,-0.026475
+18,Pout Error (Abs)(Avg)@Frq3:810.5,db,,,,-0.022475
+19,Pout Error (Abs)(Avg)@Frq3:810.501,db,,,,-0.0225
+20,Pout Error (Abs)(Avg)@Frq3:1000,db,,,,-0.00865
+21,Pout Error (Abs)(Avg)@Frq3:1140.5,db,,,,-0.012625
+22,Pout Error (Abs)(Avg)@Frq3:1140.501,db,,,,-0.0165875
+23,Pout Error (Abs)(Avg)@Frq3:1640.5,db,,,,-0.0207125
+24,Pout Error (Abs)(Avg)@Frq3:1640.501,db,,,,-0.0200875
+25,Pout Error (Abs)(Avg)@Frq3:2000,db,,,,-0.011275
+26,Pout Error (Abs)(Avg)@Frq3:2340.5,db,,,,-0.0052875
+27,Pout Error (Abs)(Avg)@Frq3:2340.501,db,,,,-0.0103375
+28,Pout Error (Abs)(Avg)@Frq3:3000,db,,,,-0.0111375
+29,Pout Error (Abs)(Avg)@Frq3:3740.5,db,,,,0.0023875
+30,Pout Error (Abs)(Avg)@Frq3:3740.501,db,,,,-0.0040875
+31,Pout Error (Abs)(Avg)@Frq3:4000,db,,,,-0.014075
+32,Pout Error (Abs)(Avg)@Frq3:5000,db,,,,0.0011625
+33,Pout Error (Abs)(Avg)@Frq3:5540.5,db,,,,-0.0125875
+34,Pout Error (Abs)(Avg)@Frq3:5540.501,db,,,,-0.0105
+35,Pout Error (Abs)(Avg)@Frq3:5999.999,db,,,,0.00615
+36,Pout Error (Abs)(Avg)@Frq3:6000,db,,,,-0.0047125
+37,Pout Error (Abs)(Avg)@Frq3:7000,db,,,,-0.0123875
+38,Pout Error (Abs)(Avg)@Frq3:8000,db,,,,-0.009575
+39,Pout Error (Abs)(Avg)@Frq3:8999.999,db,,,,-0.0040625
+40,Pout Error (Abs)(Avg)@Frq3:9000,db,,,,-0.0066
+41,Pout Error (Abs)(Avg)@Frq3:10000,db,,,,-0.0006375
+42,Pout Error (Abs)(Avg)@Frq3:11000,db,,,,-0.0429
+43,Pout Error (Abs)(Avg)@Frq3:11999.999,db,,,,0.001925
+44,Pout Error (Abs)(Avg)@Frq3:12000,db,,,,5e-05
+45,Pout Error (Abs)(Avg)@Frq3:13000,db,,,,-0.016675
+46,Pout Error (Abs)(Avg)@Frq3:14000,db,,,,-0.0102875
+47,Pout Error (Abs)(Avg)@Frq3:15000,db,,,,-0.016575
+48,Pout Error (Abs)(Avg)@Frq3:16000,db,,,,-0.0172875
+49,Pout Error (Abs)(Avg)@Frq3:17000,db,,,,-0.011875
+50,Pout Error (Abs)(Avg)@Frq3:17999.999,db,,,,-0.0089875
+51,Pout Error (Abs)(Avg)@Frq3:18000,db,,,,-0.0070875
+52,Pout Error (Abs)(Avg)@Frq3:19000,db,,,,-0.0034875
+53,Pout Error (Abs)(Avg)@Frq3:20000,db,,,,0.009
+54,Pout Error (Abs)(Avg)@Frq3:21000,db,,,,0.0058125
+55,Pout Error (Abs)(Avg)@Frq3:22000,db,,,,0.0033
+56,Pout Error (Abs)(Avg)@Frq3:23000,db,,,,6.25e-05
+57,Pout Error (Abs)(Avg)@Frq3:24000,db,,,,-0.009
+58,Pout Error (Avg)@Frq3:20,db,,,,0.0301125
+59,Pout Error (Avg)@Frq3:30,db,,,,0.019125
+60,Pout Error (Avg)@Frq3:40,db,,,,0.0226875
+61,Pout Error (Avg)@Frq3:50,db,,,,0.0239125
+62,Pout Error (Avg)@Frq3:60,db,,,,0.029125
+63,Pout Error (Avg)@Frq3:70,db,,,,0.030225
+64,Pout Error (Avg)@Frq3:80,db,,,,0.0320375
+65,Pout Error (Avg)@Frq3:90,db,,,,0.0291
+66,Pout Error (Avg)@Frq3:99.999,db,,,,0.028025
+67,Pout Error (Avg)@Frq3:100,db,,,,0.0382375
+68,Pout Error (Avg)@Frq3:440.5,db,,,,0.0307375
+69,Pout Error (Avg)@Frq3:440.501,db,,,,0.0298375
+70,Pout Error (Avg)@Frq3:580.5,db,,,,0.025125
+71,Pout Error (Avg)@Frq3:580.501,db,,,,0.026475
+72,Pout Error (Avg)@Frq3:810.5,db,,,,0.022475
+73,Pout Error (Avg)@Frq3:810.501,db,,,,0.0225
+74,Pout Error (Avg)@Frq3:1000,db,,,,0.0094
+75,Pout Error (Avg)@Frq3:1140.5,db,,,,0.013625
+76,Pout Error (Avg)@Frq3:1140.501,db,,,,0.0165875
+77,Pout Error (Avg)@Frq3:1640.5,db,,,,0.0207125
+78,Pout Error (Avg)@Frq3:1640.501,db,,,,0.0200875
+79,Pout Error (Avg)@Frq3:2000,db,,,,0.012275
+80,Pout Error (Avg)@Frq3:2340.5,db,,,,0.0100375
+81,Pout Error (Avg)@Frq3:2340.501,db,,,,0.0108375
+82,Pout Error (Avg)@Frq3:3000,db,,,,0.0111375
+83,Pout Error (Avg)@Frq3:3740.5,db,,,,0.0066125
+84,Pout Error (Avg)@Frq3:3740.501,db,,,,0.0078375
+85,Pout Error (Avg)@Frq3:4000,db,,,,0.014075
+86,Pout Error (Avg)@Frq3:5000,db,,,,0.0029875
+87,Pout Error (Avg)@Frq3:5540.5,db,,,,0.0125875
+88,Pout Error (Avg)@Frq3:5540.501,db,,,,0.0105
+89,Pout Error (Avg)@Frq3:5999.999,db,,,,0.006175
+90,Pout Error (Avg)@Frq3:6000,db,,,,0.0200875
+91,Pout Error (Avg)@Frq3:7000,db,,,,0.0123875
+92,Pout Error (Avg)@Frq3:8000,db,,,,0.009575
+93,Pout Error (Avg)@Frq3:8999.999,db,,,,0.0040625
+94,Pout Error (Avg)@Frq3:9000,db,,,,0.00685
+95,Pout Error (Avg)@Frq3:10000,db,,,,0.0034375
+96,Pout Error (Avg)@Frq3:11000,db,,,,0.0429
+97,Pout Error (Avg)@Frq3:11999.999,db,,,,0.003925
+98,Pout Error (Avg)@Frq3:12000,db,,,,0.00755
+99,Pout Error (Avg)@Frq3:13000,db,,,,0.016675
+100,Pout Error (Avg)@Frq3:14000,db,,,,0.0102875
+101,Pout Error (Avg)@Frq3:15000,db,,,,0.016575
+102,Pout Error (Avg)@Frq3:16000,db,,,,0.0172875
+103,Pout Error (Avg)@Frq3:17000,db,,,,0.011875
+104,Pout Error (Avg)@Frq3:17999.999,db,,,,0.0099875
+105,Pout Error (Avg)@Frq3:18000,db,,,,0.0083375
+106,Pout Error (Avg)@Frq3:19000,db,,,,0.0037375
+107,Pout Error (Avg)@Frq3:20000,db,,,,0.009
+108,Pout Error (Avg)@Frq3:21000,db,,,,0.0058125
+109,Pout Error (Avg)@Frq3:22000,db,,,,0.00635
+110,Pout Error (Avg)@Frq3:23000,db,,,,0.0124625
+111,Pout Error (Avg)@Frq3:24000,db,,,,0.034725
+112,Pout Error (Max-Min)@Frq3:20,db,1,,,0.1491
+113,Pout Error (Max-Min)@Frq3:30,db,1,,,0.0294
+114,Pout Error (Max-Min)@Frq3:40,db,1,,,0.0181
+115,Pout Error (Max-Min)@Frq3:50,db,1,,,0.0156
+116,Pout Error (Max-Min)@Frq3:60,db,1,,,0.0283
+117,Pout Error (Max-Min)@Frq3:70,db,1,,,0.0204
+118,Pout Error (Max-Min)@Frq3:80,db,1,,,0.0158
+119,Pout Error (Max-Min)@Frq3:90,db,1,,,0.0122
+120,Pout Error (Max-Min)@Frq3:99.999,db,1,,,0.0159
+121,Pout Error (Max-Min)@Frq3:100,db,1,,,0.015
+122,Pout Error (Max-Min)@Frq3:440.5,db,1,,,0.0205
+123,Pout Error (Max-Min)@Frq3:440.501,db,1,,,0.0102
+124,Pout Error (Max-Min)@Frq3:580.5,db,1,,,0.0245
+125,Pout Error (Max-Min)@Frq3:580.501,db,1,,,0.0218
+126,Pout Error (Max-Min)@Frq3:810.5,db,1,,,0.0146
+127,Pout Error (Max-Min)@Frq3:810.501,db,1,,,0.0096
+128,Pout Error (Max-Min)@Frq3:1000,db,1,,,0.0191
+129,Pout Error (Max-Min)@Frq3:1140.5,db,1,,,0.0236
+130,Pout Error (Max-Min)@Frq3:1140.501,db,1,,,0.0156
+131,Pout Error (Max-Min)@Frq3:1640.5,db,1,,,0.0223
+132,Pout Error (Max-Min)@Frq3:1640.501,db,1,,,0.0268
+133,Pout Error (Max-Min)@Frq3:2000,db,1,,,0.0224
+134,Pout Error (Max-Min)@Frq3:2340.5,db,1,,,0.0344
+135,Pout Error (Max-Min)@Frq3:2340.501,db,1,,,0.0202
+136,Pout Error (Max-Min)@Frq3:3000,db,1,,,0.0164
+137,Pout Error (Max-Min)@Frq3:3740.5,db,1,,,0.0176
+138,Pout Error (Max-Min)@Frq3:3740.501,db,1,,,0.0285
+139,Pout Error (Max-Min)@Frq3:4000,db,1,,,0.0101
+140,Pout Error (Max-Min)@Frq3:5000,db,1,,,0.013
+141,Pout Error (Max-Min)@Frq3:5540.5,db,1,,,0.0112
+142,Pout Error (Max-Min)@Frq3:5540.501,db,1,,,0.013
+143,Pout Error (Max-Min)@Frq3:5999.999,db,1,,,0.0171
+144,Pout Error (Max-Min)@Frq3:6000,db,1,,,0.114
+145,Pout Error (Max-Min)@Frq3:7000,db,1,,,0.0108
+146,Pout Error (Max-Min)@Frq3:8000,db,1,,,0.0152
+147,Pout Error (Max-Min)@Frq3:8999.999,db,1,,,0.0093
+148,Pout Error (Max-Min)@Frq3:9000,db,1,,,0.0139
+149,Pout Error (Max-Min)@Frq3:10000,db,1,,,0.013
+150,Pout Error (Max-Min)@Frq3:11000,db,1,,,0.0289
+151,Pout Error (Max-Min)@Frq3:11999.999,db,1,,,0.014
+152,Pout Error (Max-Min)@Frq3:12000,db,1,,,0.039
+153,Pout Error (Max-Min)@Frq3:13000,db,1,,,0.012
+154,Pout Error (Max-Min)@Frq3:14000,db,1,,,0.0134
+155,Pout Error (Max-Min)@Frq3:15000,db,1,,,0.0092
+156,Pout Error (Max-Min)@Frq3:16000,db,1,,,0.01
+157,Pout Error (Max-Min)@Frq3:17000,db,1,,,0.009
+158,Pout Error (Max-Min)@Frq3:17999.999,db,1,,,0.0172
+159,Pout Error (Max-Min)@Frq3:18000,db,1,,,0.0173
+160,Pout Error (Max-Min)@Frq3:19000,db,1,,,0.0062
+161,Pout Error (Max-Min)@Frq3:20000,db,1,,,0.0099
+162,Pout Error (Max-Min)@Frq3:21000,db,1,,,0.019
+163,Pout Error (Max-Min)@Frq3:22000,db,1,,,0.0201
+164,Pout Error (Max-Min)@Frq3:23000,db,1,,,0.0485
+165,Pout Error (Max-Min)@Frq3:24000,db,1,,,0.1244
+166,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-21,db,,,,0.112
+167,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-18,db,,,,0.066
+168,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-15,db,,,,0.062
+169,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-12,db,,,,0.071
+170,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-9,db,,,,0.0575
+171,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-6,db,,,,0.0512
+172,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:-3,db,,,,0.1553
+173,(vs Pset)Pout Error (Abs)(Avg)@Pwr3:0,db,,,,0.1116
+174,(vs Pset)Pout Error (Avg)@Pwr3:-21,db,,,,-0.0105185185
+175,(vs Pset)Pout Error (Avg)@Pwr3:-18,db,,,,-0.0117777777
+176,(vs Pset)Pout Error (Avg)@Pwr3:-15,db,,,,-0.0111666666
+177,(vs Pset)Pout Error (Avg)@Pwr3:-12,db,,,,-0.0137777777
+178,(vs Pset)Pout Error (Avg)@Pwr3:-9,db,,,,-0.0162481481
+179,(vs Pset)Pout Error (Avg)@Pwr3:-6,db,,,,-0.0146592592
+180,(vs Pset)Pout Error (Avg)@Pwr3:-3,db,,,,-0.0178148148
+181,(vs Pset)Pout Error (Avg)@Pwr3:0,db,,,,-0.0150407407
+182,(vs Pset)Pout Error (Max-Min)@Pwr3:-21,db,,,,0.0163333333
+183,(vs Pset)Pout Error (Max-Min)@Pwr3:-18,db,,,,0.0157407407
+184,(vs Pset)Pout Error (Max-Min)@Pwr3:-15,db,,,,0.0149074074
+185,(vs Pset)Pout Error (Max-Min)@Pwr3:-12,db,,,,0.0167407407
+186,(vs Pset)Pout Error (Max-Min)@Pwr3:-9,db,,,,0.0181777777
+187,(vs Pset)Pout Error (Max-Min)@Pwr3:-6,db,,,,0.0164333333
+188,(vs Pset)Pout Error (Max-Min)@Pwr3:-3,db,,,,0.0189037037
+189,(vs Pset)Pout Error (Max-Min)@Pwr3:0,db,,,,0.0159629629
+190,Src Pout Error (max),db,1,-1,,0.022
+191,Src Pout Error (min),db,1,-1,,-0.1464
+192,(Error vs Freq)(Avg)Max,db,1,-1,,-0.0138754629
+193,(Error vs Freq)(Avg)Max at Freq,Hz,,,,-4.29e-08
+194,(Error vs Freq)(Avg)Mean,db,,,,11000000000
+195,(Error vs Freq)(Avg)Min,db,1,-1,,0.009
+196,(Error vs Freq)(Avg)Min at Freq,Hz,,,,20000.0
+197,(Error vs Freq)(Abs)(Avg)Max,db,1,,,0.01665
+198,(Error vs Freq)(Abs)(Avg)Max at Freq,Hz,,,,2.9875e-09
+199,(Error vs Freq)(Abs)(Avg)Mean,db,,,,11000000000
+200,(Error vs Freq)(Abs)(Avg)Min,db,,,,0.0429
+201,(Error vs Freq)(Range)Max,db,1,,,20000000
+202,(Error vs Freq)(Range)Max at Freq,Hz,,,,1.491e-07
+203,(Error vs Freq)(Range)Mean,db,,,,0.0241962962
+204,(Error vs Freq)(Range)Min,db,,,,0.0062
+205,(Error vs Pset)(Avg)Max,db,1,-1,,-21
+206,(Error vs Pset)(Avg)Max at Pset,dbm,,,,-3
+207,(Error vs Pset)(Avg)Mean,db,,,,-0.0138754629
+208,(Error vs Pset)(Avg)Min,db,1,-1,,-0.0178148148
+209,(Error vs Pset)(Avg)Min at Pset,dbm,,,,-0.0105185185
+210,(Error vs Pset)(Abs)(Avg)Max,db,1,,,0.0189037037
+211,(Error vs Pset)(Abs)(Avg)Max at Pset,dbm,,,,0.01665
+212,(Error vs Pset)(Abs)(Avg)Mean,db,,,,0.0149074074
+213,(Error vs Pset)(Abs)(Avg)Min,db,,,,-3
+214,(Error vs Pset)(Range)Max,db,,,,0.085825
+215,(Error vs Pset)(Range)Max at Pset,dbm,,,,0.1553
+216,(Error vs Pset)(Range)Mean,db,,,,0.0512
+217,(Error vs Pset)(Range)Min,db,,,,-3

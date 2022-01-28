@@ -1,0 +1,65 @@
+Result Number,Result Name,Units,U Limit,L Limit,Verify:,G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24
+1,Dummy,Amps,,,,-1.39281087e-09
+2,V Force@MsrVFrc:-9.9,Volts,0.1,-0.1,,-0.00204675766
+3,V Force@MsrVFrc:-8,Volts,0.1,-0.1,,-0.00174943435
+4,V Force@MsrVFrc:-6,Volts,0.1,-0.1,,-0.0016226674
+5,V Force@MsrVFrc:-4,Volts,0.1,-0.1,,-0.00108167751
+6,V Force@MsrVFrc:-2,Volts,0.1,-0.1,,-0.000601940524
+7,V Force@MsrVFrc:0,Volts,0.1,-0.1,,-0.000333301505
+8,V Force@MsrVFrc:2,Volts,0.1,-0.1,,0.000259327372
+9,V Force@MsrVFrc:4,Volts,0.1,-0.1,,0.000287248747
+10,V Force@MsrVFrc:6,Volts,0.1,-0.1,,0.00119060071
+11,V Force@MsrVFrc:8,Volts,0.1,-0.1,,0.00157074836
+12,V Force@MsrVFrc:9.9,Volts,0.1,-0.1,,0.00199187274
+13,V Sense@MsrVFrc:-9.9,Volts,0.1,-0.1,,0.000605818541
+14,V Sense@MsrVFrc:-8,Volts,0.1,-0.1,,0.00285797443
+15,V Sense@MsrVFrc:-6,Volts,0.1,-0.1,,0.00286281969
+16,V Sense@MsrVFrc:-4,Volts,0.1,-0.1,,0.00239182093
+17,V Sense@MsrVFrc:-2,Volts,0.1,-0.1,,0.00154901572
+18,V Sense@MsrVFrc:0,Volts,0.1,-0.1,,0.0010251454
+19,V Sense@MsrVFrc:2,Volts,0.1,-0.1,,0.000160168257
+20,V Sense@MsrVFrc:4,Volts,0.1,-0.1,,-0.00113630903
+21,V Sense@MsrVFrc:6,Volts,0.1,-0.1,,-0.00175057266
+22,V Sense@MsrVFrc:8,Volts,0.1,-0.1,,0.00205761373
+23,V Sense@MsrVFrc:9.9,Volts,0.1,-0.1,,-0.00169371054
+24,200u i Sense Offset,Amps,2e-07,-2e-07,,1.93199348e-09
+25,20u i Sense Offset,Amps,5e-08,-5e-08,,3.61671184e-08
+26,2m i Sense Offset,Amps,2e-06,-2e-06,,1.15555752e-08
+27,2u i Sense Offset,Amps,5e-08,-5e-08,,-5.31300837e-09
+28,20u i Force@MsrIFrc:0,Amps,5.3e-06,-5.3e-06,,1.8290006e-06
+29,20u i Force@MsrIFrc:5 u,Amps,5.3e-06,-5.3e-06,,1.84454869e-06
+30,20u i Force@MsrIFrc:10 u,Amps,5.3e-06,-5.3e-06,,1.92555349e-06
+31,20u i Sense@MsrIFrc:0,Amps,4.4e-07,-4.4e-07,,1.79597861e-06
+32,20u i Sense@MsrIFrc:5 u,Amps,4.4e-07,-4.4e-07,,1.83083479e-06
+33,20u i Sense@MsrIFrc:10 u,Amps,4.4e-07,-4.4e-07,,1.92468539e-06
+34,20u i Sense vs Force@MsrIFrc:0,Amps,5.1e-06,-5.1e-06,,3.30219903e-08
+35,20u i Sense vs Force@MsrIFrc:5 u,Amps,5.1e-06,-5.1e-06,,1.37138993e-08
+36,20u i Sense vs Force@MsrIFrc:10 u,Amps,5.1e-06,-5.1e-06,,8.68095455e-10
+37,200u i Force@MsrIFrc:0,Amps,6.4e-06,-6.4e-06,,1.82896364e-06
+38,200u i Force@MsrIFrc:50 u,Amps,6.4e-06,-6.4e-06,,-3.45300698e-07
+39,200u i Force@MsrIFrc:100 u,Amps,6.4e-06,-6.4e-06,,-1.67462909e-07
+40,200u i Sense@MsrIFrc:0,Amps,1.7e-06,-1.7e-06,,-2.13605452e-08
+41,200u i Sense@MsrIFrc:50 u,Amps,1.7e-06,-1.7e-06,,-4.01352941e-08
+42,200u i Sense@MsrIFrc:100 u,Amps,1.7e-06,-1.7e-06,,-5.00291691e-08
+43,200u i Sense vs Force@MsrIFrc:0,Amps,5.7e-06,-5.7e-06,,1.8076031e-06
+44,200u i Sense vs Force@MsrIFrc:50 u,Amps,5.7e-06,-5.7e-06,,-3.85435992e-07
+45,200u i Sense vs Force@MsrIFrc:100 u,Amps,5.7e-06,-5.7e-06,,-2.17492078e-07
+46,2m i Force@MsrIFrc:0,Amps,2.7e-05,-2.7e-05,,1.73660755e-06
+47,2m i Force@MsrIFrc:500 u,Amps,2.7e-05,-2.7e-05,,6.2978285e-07
+48,2m i Force@MsrIFrc:1000 u,Amps,2.7e-05,-2.7e-05,,-7.75814017e-07
+49,2m i Sense@MsrIFrc:0,Amps,9.4e-06,-9.4e-06,,2.5038435e-06
+50,2m i Sense@MsrIFrc:500 u,Amps,9.4e-06,-9.4e-06,,1.91494001e-06
+51,2m i Sense@MsrIFrc:1000 u,Amps,9.4e-06,-9.4e-06,,7.99026463e-07
+52,2m i Sense vs Force@MsrIFrc:0,Amps,2.6e-05,-2.6e-05,,-7.67235954e-07
+53,2m i Sense vs Force@MsrIFrc:500 u,Amps,2.6e-05,-2.6e-05,,-1.28515716e-06
+54,2m i Sense vs Force@MsrIFrc:1000 u,Amps,2.6e-05,-2.6e-05,,-1.57484048e-06
+55,200u Low i Sense Offs,Amps,1e-07,-1e-07,,9.41005186e-10
+56,20u Low i Sense Offset,Amps,5e-08,-5e-08,,9.64954251e-10
+57,2m Low i Sense Offset,Amps,5e-07,-5e-07,,2.17643959e-09
+58,2u Low i Sense Offset,Amps,5e-09,-5e-09,,2.77149138e-09
+59,200u Low i Sense@MsrVFrc:0,Amps,1.7e-06,-1.7e-06,,2.20822951e-08
+60,200u Low i Sense@MsrVFrc:0.05,Amps,1.7e-06,-1.7e-06,,-1.67020275e-08
+61,200u Low i Sense@MsrVFrc:0.1,Amps,1.7e-06,-1.7e-06,,-3.01661679e-08
+62,2m Low i Sense@MsrVFrc:0,Amps,9.4e-06,-9.4e-06,,-4.62061222e-08
+63,2m Low i Sense@MsrVFrc:0.5,Amps,9.4e-06,-9.4e-06,,-1.67393136e-07
+64,2m Low i Sense@MsrVFrc:1,Amps,9.4e-06,-9.4e-06,,-4.10172544e-07

@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RITdb to XLSX",
+            "type": "python",
+            "request": "launch",
+            "program": "RITdb-verifies2xlsx.pyw",
+            "args": [
+                "-i",
+                "C:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File with ritdb arg",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-i",
+                "c:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "RTIdb to CSV",
+            "type": "python",
+            "request": "launch",
+            "program": "RITdb-verifies2csv.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-i C:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+            ]
+        },
+        {
+            "name": "RTIdb to BOTH CSV & XLSX",
+            "type": "python",
+            "request": "launch",
+            "program": "RITdb-verifies2both.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-i C:\\Users\\Public\\Verifies\\GEJRNEYA-RI8586A_Src_(Lin)_(vsFreq)(vsPset)_Validate_2021-10-05T14-15-39.ritdb"
+            ]
+        }
+        {
+            "name": "ALL RTIdb to BOTH CSV & XLSX",
+            "type": "python",
+            "request": "launch",
+            "program": "RITdb-verifies2both.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-a"
+            ]
+        }
+    ]
+}

@@ -5,56 +5,63 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "RITdb to XLSX",
+            "name": "Convert to .XLSX (Windows)",
             "type": "python",
             "request": "launch",
-            "program": "RITdb-verifies2xlsx.pyw",
+            "program": "RITdbVerify2xlsx.pyw",
             "args": [
                 "-i",
-                "C:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
+            "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Current File with ritdb arg",
+            "name": "Convert to .CSV (Windows)",
+            "type": "python",
+            "request": "launch",
+            "program": "RITdbVerify2csv.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-i",
+                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Convert to BOTH (Windows)",
+            "type": "python",
+            "request": "launch",
+            "program": "convertRITdbVerify.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-i",
+                "${workspaceFolder}\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Convert ALL to BOTH (Windows)",
+            "type": "python",
+            "request": "launch",
+            "program": "convertRITdbVerify.pyw",
+            "console": "integratedTerminal",
+            "args": [
+                "-a"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: Selected Py File with SAMPLE ritdb arg",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "args": [
                 "-i",
-                "c:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "RTIdb to CSV",
-            "type": "python",
-            "request": "launch",
-            "program": "RITdb-verifies2csv.pyw",
             "console": "integratedTerminal",
-            "args": [
-                "-i C:\\Users\\Public\\Verifies\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
-            ]
-        },
-        {
-            "name": "RTIdb to BOTH CSV & XLSX",
-            "type": "python",
-            "request": "launch",
-            "program": "RITdb-verifies2both.pyw",
-            "console": "integratedTerminal",
-            "args": [
-                "-i C:\\Users\\Public\\Verifies\\GEJRNEYA-RI8586A_Src_(Lin)_(vsFreq)(vsPset)_Validate_2021-10-05T14-15-39.ritdb"
-            ]
-        }
-        {
-            "name": "ALL RTIdb to BOTH CSV & XLSX",
-            "type": "python",
-            "request": "launch",
-            "program": "RITdb-verifies2both.pyw",
-            "console": "integratedTerminal",
-            "args": [
-                "-a"
-            ]
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

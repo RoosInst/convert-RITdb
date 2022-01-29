@@ -5,7 +5,7 @@
 Convert test result in the RITdb to XLSX format
 console window hidden on windows
 
-Usage: RITdb2xlsx.pyw [-s | --split] -i <input RITdb file> [-o <output XLSX file>]
+Usage: RITdbVerify2xlsx.pyw [-s | --split] -i <input RITdb file> [-o <output XLSX file>]
 '''
 
 from fileinput import filename
@@ -72,8 +72,8 @@ SubstrateEven_EID = '''JOIN ritdb1 n9 ON n0.entityID=n9.entityID AND n9.name='SU
 
 
 def ritdb2xlsx(dbCursor, xlFilename, modStr):
-    hasFailed = 0
-    #    query the top header
+    failedCount = 0
+    # query the top header
     if modStr:
         query = PartInfoQuery.format(SubstrateEven_EID, modStr)
     else:
@@ -83,15 +83,14 @@ def ritdb2xlsx(dbCursor, xlFilename, modStr):
     for i in range(4):
         topLabel.append(dbCursor.description[i][0])
 
-#    query the left table
+    # query the left table
     dbCursor.execute(Verify_ReslutInfoQuery)
     leftTable = dbCursor.fetchall()
-    nTest = len(leftTable)
     leftLabel = []
     for i in range(5):
         leftLabel.append(dbCursor.description[i][0])
 
-#    query result data, sort by PART_RESULT_EVENT_ORDER then RESULT_ORDER
+    # query result data, sort by PART_RESULT_EVENT_ORDER then RESULT_ORDER
     if modStr:
         query = ResultsQuery.format(SubstrateEven_EID, modStr)
     else:
@@ -99,20 +98,21 @@ def ritdb2xlsx(dbCursor, xlFilename, modStr):
     query = query + 'ORDER BY n2.value ASC'
     dbCursor.execute(query)
 
-#    open Excel workbook
+    # open Excel workbook
     wb = Workbook()
     ws1 = wb.active
+
     # workbook sheet title is limited to 31 chars on some versions
     ws1.title = os.path.basename(baseName)[:31]
 
-#   write the top table to file
+    # write the top table to file
     ws1.cell(1, 6, os.path.basename(baseName))
 
     for i in range(5):
         colIdx = i + 1
         ws1.cell(1, colIdx, leftLabel[i])
 
-#    Write one row at a time
+    # Write one row at a time
     data = dbCursor.fetchone()      # get the first row of resultQuery data
     rowIdx = 2
     for ltRow in leftTable:
@@ -125,16 +125,22 @@ def ritdb2xlsx(dbCursor, xlFilename, modStr):
             # Test UL and LL Limits
             if ltRow[3] and ltRow[3] < data[0]:
                 cell.font = RED
-                hasFailed = hasFailed + 1
+                failedCount = failedCount + 1
             elif ltRow[4] and ltRow[4] > data[0]:
                 cell.font = RED
-                hasFailed = hasFailed + 1
+                failedCount = failedCount + 1
             data = dbCursor.fetchone()
         rowIdx = rowIdx + 1
 
-    if hasFailed > 0:  # Report number of Failed Tests at Top
-        ws1.cell(1, 6).font = RED
-        ws1.cell(1, 7, str(hasFailed) + " FAILED TESTS").font = RED
+    # Set Verify PASS/FAIL Result
+    if failedCount > 0:
+        ws1.cell(rowIdx+1, 2, "FAIL")
+        ws1.cell(rowIdx+1, 3, "Count")
+        ws1.cell(rowIdx+1, 6).font = RED
+        ws1.cell(rowIdx+1, 6, failedCount)
+        ws1.cell(1, 6).font = RED  # Verify Name RED
+    else:
+        ws1.cell(rowIdx+1, 2, "PASS")
 
     wb.save(filename=xlFilename)
     print("SUCCESS converting to XLSX.", xlFilename)
@@ -190,7 +196,7 @@ if __name__ == '__main__':
         sys.exit(2)
 
     try:
-        #    Connect to database
+        # Connect to database
         dbConn = sql.connect(dbFileName)
         dbCursor = dbConn.cursor()
 

@@ -3,7 +3,7 @@
 '''
 Convert Cassini Verify results from RITdb to CSV format
 
-Usage: RITdb-verifies2csv.py -i <input RITdb file> [-o <output CSV file>]
+Usage: RITdbVerify2csv.py -i <input RITdb file> [-o <output CSV file>]
 '''
 
 import os
@@ -60,7 +60,6 @@ def ritdb2csv(dbFileName, csvFileName):
         cur = conn.cursor()
 
 #    query the top header
-
         nDevice = 1
         topLabel = ['', '', '', '', '', 'Name', os.path.basename(baseName)]
 
@@ -76,7 +75,7 @@ def ritdb2csv(dbFileName, csvFileName):
         cur.execute(resultsQuery + 'ORDER BY n2.value, n1.value ASC')
 
 #    open csv writer
-        with open(csvFileName, "w") as csv_file:
+        with open(csvFileName, "w", newline='') as csv_file:
             csv_writer = csv.writer(
                 csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 

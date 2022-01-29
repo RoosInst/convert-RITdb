@@ -9,7 +9,7 @@ Usage: RITdb-verifies2both.pyw -a | -i <input RITdb file>
 import sys
 import os
 import getopt
-from tqdm import trange
+from tqdm import tqdm
 # import RITdbVerify2csv
 # import RITdbVerify2xlsx
 import subprocess
@@ -37,33 +37,18 @@ if __name__ == '__main__':
             usage()
             sys.exit()
         elif opt in ("-a", "--all"):
-            fileCount = len([f for f in os.listdir()
-                             if f.endswith('.ritdb') and os.path.isfile(os.path.join(f))])
-            print("Found " + str(fileCount) +
+
+            RITdbFiles = ([f for f in os.listdir()
+                           if f.endswith('.ritdb') and os.path.isfile(os.path.join(f))])
+            print("Found " + str(len(RITdbFiles)) +
                   ' RITdb files in ' + os.getcwd() + "...")
-
-            for file in os.listdir():
-                if file.endswith('.ritdb'):
-
-                    toolbar_width = len(file)
-                    for fi in file:
-                        # setup toolbar
-                        sys.stdout.write("[%s]" % (" " * toolbar_width))
-                        sys.stdout.flush()
-                        # return to start of line, after '['
-                        sys.stdout.write("\b" * (toolbar_width+1))
-
-                        for i in range(toolbar_width):
-                            subprocess.run('RITdb-verifies2csv.pyw -i ' + file +
-                                           '& RITdb-verifies2xlsx.pyw -i' + file, shell=True)
-                            # update the bar
-                            sys.stdout.write("-")
-                            sys.stdout.flush()
-
-                        sys.stdout.write("]\n")  # this ends the progress bar
-                    sys.exit()
-                else:
-                    continue
+            # toolbar_width = len(RITdbFiles)
+            pbar = tqdm(RITdbFiles)
+            for file in pbar:
+                pbar.set_description("Converting %s" % file)
+                subprocess.run('RITdb-verifies2csv.pyw -i ' + file +
+                               '& RITdb-verifies2xlsx.pyw -i' + file, shell=True)
+            sys.exit()
 
         elif opt in ("-i", "--ifile"):
             dbFileName = arg.strip()

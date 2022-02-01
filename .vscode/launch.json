@@ -5,43 +5,43 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Convert to .XLSX (Windows)",
+            "name": "Convert to .XLSX (.pyw)",
             "type": "python",
             "request": "launch",
             "program": "RITdbVerify2xlsx.pyw",
             "args": [
                 "-i",
-                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "RITdb-verify-samples\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Convert to .CSV (Windows)",
+            "name": "Convert to .CSV (.pyw)",
             "type": "python",
             "request": "launch",
             "program": "RITdbVerify2csv.pyw",
             "console": "integratedTerminal",
             "args": [
                 "-i",
-                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "RITdb-verify-samples\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
             "cwd": "${workspaceFolder}"
         },
         {
-            "name": "Convert to BOTH (Windows)",
+            "name": "Convert Sample to BOTH (.pyw)",
             "type": "python",
             "request": "launch",
             "program": "convertRITdbVerify.pyw",
             "console": "integratedTerminal",
             "args": [
                 "-i",
-                "${workspaceFolder}\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "${workspaceFolder}\\RITdb-verify-samples\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
             "cwd": "${workspaceFolder}"
         },
         {
-            "name": "Convert ALL to BOTH (Windows)",
+            "name": "Convert ALL to BOTH (.pyw)",
             "type": "python",
             "request": "launch",
             "program": "convertRITdbVerify.pyw",
@@ -52,13 +52,13 @@
             "cwd": "${workspaceFolder}"
         },
         {
-            "name": "Python: Selected Py File with SAMPLE ritdb arg",
+            "name": "Python: Run Selected .Py to Convert with SAMPLE ritdb arg",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "args": [
                 "-i",
-                "G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
+                "\\RITdb-verify-samples\\G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-39-24.ritdb"
             ],
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}"

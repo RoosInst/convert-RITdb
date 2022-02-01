@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #
-# python3 -m pip install openpyxl - to install required module
+# REQUIRES openpyxl: python3 -m pip install openpyxl
 '''
 Convert test result in the RITdb to XLSX format
 console window hidden on windows

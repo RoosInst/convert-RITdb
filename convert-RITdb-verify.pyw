@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-#
+# Requires tqdm module, install cmd: py - m pip install tqdm
 '''
-Convert Cassini Verify results from RITdb to CSV and/or XLSX formats
-requires tqdm module, install cmd: py -m pip install tqdm
+Convert Cassini Verify results from RITdb format to CSV and/or XLSX format(s)
 
-Usage: convertRITdbVerify.pyw -a | -i <input RITdb file>
+Usage: convert-RITdb-verify.pyw -a | -i <input RITdb file>
 '''
 import sys
 import os

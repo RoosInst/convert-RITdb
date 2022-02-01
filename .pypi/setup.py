@@ -1,0 +1,31 @@
+from distutils.core import setup
+setup(
+    name='convert-RTIdb',
+    packages=['convert-RTIdb'],
+    version='0.1',
+    license='MIT',
+    description='Converts RTIdb to CSV or XLSX.',
+    author='Ryan Benech',
+    author_email='rbenech@roos.com',
+    url='https://github.com/RoosInst/convert-RITdb',
+    download_url='https://github.com/RoosInst/convert-RITdb/archive/v_01.tar.gz',
+    keywords=['RITDB', 'CSV', 'XLSX', 'SQLITE'],
+    install_requires=[
+        'openpyxl',
+        'tqdm',
+    ],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: End Users/Desktop',
+        'Intended Audience :: Manufacturing',
+        'Intended Audience :: Science/Research',
+        'Topic :: Scientific/Engineering :: Information Analysis',
+        'Topic :: System :: Monitoring',
+        'Software Development :: Quality Assurance',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
+    ],
+)

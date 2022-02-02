@@ -10,31 +10,27 @@ Cassini generates Guru Objects with "ri.sys.Type=verfy" that can be copied via G
 
 ### RITdb Datalog (Cassini Test Exec)
 
-The Cassini application creates RITdb files in the D:\RiApps\Data\ folder that is used by the Worksheet.  Cassini with Patch #TBD saves the RITdb datalog to Guru as ObjClass=RITdb.datalog in distinct pieces also called "windows" (type = begin, window, end). Guru Agent can be used to combine the pieces (type = begin, window, end) and all any of the conversion scripts with the *Post Execution Script*.  (Requires Guru Agent Editor v62+)  
-## Output File Types
-
-### CSV
-
-Converts to comma separated .csv format
-
-### XLSX
-
-Converts to Excel .xlsx format.
-Requires openpyxl 'python3 -m pip install openpyxl'
-
-## Input File Types
-
-### Verify Datalogs
-
-Cassini Verify logs use the scripts that start with "RITdbVerify..."
+The Cassini application creates RITdb files in the D:\RiApps\Data\ folder that is used by the Worksheet.  Cassini with Patch #TBD saves the RITdb datalog to Guru as ObjClass=RITdb.datalog in distinct pieces also called "windows" (type = begin, window, end). Guru Agent can be used to combine the pieces (type = begin, window, end) and all any of the conversion scripts with the *Post Execution Script*.  (Requires Guru Agent Editor v62+)
 
 ### Convert Wrapper
 
 Utility script that performs conversion on every .ritdb in the same directory to both formats by default.  Use command options to specify a specific format (-c or -x).
 
+## Output File Types
+
+### CSV
+
+Converts to comma separated .csv format.  "SystemCheck" limits are applied and Failed tests counted and added to the last line.
+
+### XLSX
+
+Converts to Excel .xlsx format. "SystemCheck" limits are applied and Failed tests counted and added to the last line.  Failed tests and the column header that contains the file name has a 'RED' style applied.
+
+Requires openpyxl 'python3 -m pip install openpyxl'
+
 ## Installation & Use
 
-Copy the files to the same directory where the .ritdb files are located.
+Copy the conversion file(s) to the same directory where the .ritdb files are located.  "convert-RITdb-verify" files require both "RITdbVerify2csv.pyw" and "RITdbVerify2xlsx.pyw" files for full functionaliy.
 
 Linux and MacOS- use .py files
 Windows - use .pyw files to suppress console window
@@ -48,7 +44,13 @@ Example Options and Arguments: (not available on every script)
 
 ### Use Example
 
-convert-
+Converts all the .ritdb files in the current directory to both .csv and .xlsx files
+
+    convert-RITdb-verify.pyw 
+
+Converts the file RITdb-verify-samples/G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-21-46.ritdb file to .csv
+
+    RTIdbVerify2csv.pyw -i RITdb-verify-samples/G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-21-46.ritdb
 
 # Developers
 

@@ -37,10 +37,10 @@ Windows - use .pyw files to suppress console window
 
 Example Options and Arguments: (not available on every script)
 
-- p | --pivot : transpose the rows and columns of the table
-- s | --split : splits into separate output files per Wafer
-- i | --ifile= : Input file name
-- o | --ofile= : Outpur file name
+    p | --pivot : transpose the rows and columns of the table
+    s | --split : splits into separate output files per Wafer
+    i | --ifile= : Input file name (required)
+    o | --ofile= : Outpur file name
 
 ### Use Example
 
@@ -52,11 +52,11 @@ Converts the file RITdb-verify-samples/G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-
 
     RTIdbVerify2csv.pyw -i RITdb-verify-samples/G9TQQ5YA-Ri7421B_DPVP_Verify_CF2_2021-11-30T19-21-46.ritdb
 
-# Developers
+## Developers
 
-Push Requests welcome.  Create issues in Github.
+Push requests and issues are welcome.  <https://github.com/RoosInst/convert-RITdb/issues>
 
-## Python3 Setup
+### Python3 Setup
 
 Run "python3 pip install -r requirements.txt" install or "python3 pip install --upgrade -r requirements.txt"  to upgrade.
 

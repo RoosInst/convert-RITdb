@@ -30,10 +30,13 @@ Requires openpyxl 'python3 -m pip install openpyxl'
 
 ## Installation & Use
 
-Copy the conversion file(s) to the same directory where the .ritdb files are located.  "convert-RITdb-verify" files require both "RITdbVerify2csv.pyw" and "RITdbVerify2xlsx.pyw" files for full functionaliy.
+1. Download this progect to a folder
+2. run pip install --no-index --find-links /path/to/download/dir/ -r requirements.txt
 
-Linux and MacOS- use .py files
-Windows - use .pyw files to suppress console window
+Copy the .py (or .pyw Windows) file(s) to the same directory where the .ritdb files are located.  "convert-RITdb-verify" files require both "RITdbVerify2csv" and "RITdbVerify2xlsx" files for full functionaliy.
+
+Linux and MacOS- only use .py files
+Windows - only use .pyw files to suppress console window
 
 Example Options and Arguments: (not available on every script)
 
